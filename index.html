@@ -6,7 +6,7 @@
             document.addEventListener("deviceready", onDeviceReady, false);
             function onDeviceReady() {
                 alert("Device ready!");
-                navigator.app.loadUrl("http://siegetd.herokuapp.com");
+                navigator.app.loadUrl("http://siegetd.herokuapp.com", {openExternal: true});
             };
         </script>
         <title>SiegeTD</title>
