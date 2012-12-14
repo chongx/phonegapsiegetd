@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.herokuapp.siegetd"
+    versionCode="10" 
+    version   = "1.0.0">
+
+<name>SiegeTD</name>
+
+<description>
+A multiplayer tower defense game.
+</description>
+
+<author>
+    Alexander Malyshev
+    Arjuna Hayes
+    Chong Xie
+</author>
+
 <preference name="orientation" value="landscape" />
 <preference name="fullscreen" value="true" />
 <preference name="webviewbounce" value="false" />
 <preference name="stay-in-webview" value="true" />
 <access origin="http://siegetd.herokuapp.com" />
+
+</widget>
